@@ -12,7 +12,3 @@ The system follows a modular architecture based on containerized services:
 * Visualization: Grafana for real-time dashboards and threshold-based alerts.
 * Interrogation: Python-based Telegram Bot for remote data access.
 
-## Repository Structure
-/python_scripts: Contains the data simulation and the Telegram bot logic.
-/node-red: Contains the exported JSON flows used for data processing.
-/docs: Project documentation and reports.
