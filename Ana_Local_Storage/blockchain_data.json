@@ -1,0 +1,419 @@
+[
+    {
+        "index": 0,
+        "timestamp": 1782722255.837357,
+        "data": "Genesis Block - Inceputul",
+        "previous_hash": "0",
+        "hash": "942951f3123f437b01c56e5fd46416817008c9e7fc3616320ef39f4dda09fc1e"
+    },
+    {
+        "index": 1,
+        "timestamp": 1782722257.5228245,
+        "data": {
+            "temperatura": 23.18,
+            "umiditate": 45.69
+        },
+        "previous_hash": "942951f3123f437b01c56e5fd46416817008c9e7fc3616320ef39f4dda09fc1e",
+        "hash": "1474cebe5db83c5de3e10fe0e6150f1a39472ebb9112e7830b65b4d3f1b5049a"
+    },
+    {
+        "index": 2,
+        "timestamp": 1782722262.519811,
+        "data": {
+            "temperatura": 26.23,
+            "umiditate": 50.3
+        },
+        "previous_hash": "1474cebe5db83c5de3e10fe0e6150f1a39472ebb9112e7830b65b4d3f1b5049a",
+        "hash": "662283f2b728b3afed5a5d34e4f5072ddb89a5c68c369258e2af4462bfa80a32"
+    },
+    {
+        "index": 3,
+        "timestamp": 1782722267.520178,
+        "data": {
+            "temperatura": 22.54,
+            "umiditate": 54.71
+        },
+        "previous_hash": "662283f2b728b3afed5a5d34e4f5072ddb89a5c68c369258e2af4462bfa80a32",
+        "hash": "87db76bacbcc9f38926fa7d4a1f9a3a6e405dea47094627ec65ecf1818a9ee7a"
+    },
+    {
+        "index": 4,
+        "timestamp": 1782722272.5198476,
+        "data": {
+            "temperatura": 25.67,
+            "umiditate": 48.07
+        },
+        "previous_hash": "87db76bacbcc9f38926fa7d4a1f9a3a6e405dea47094627ec65ecf1818a9ee7a",
+        "hash": "53d36d3e84e235bdec9522d24fbfe24091e96988b5615863278b5ecef50e7c93"
+    },
+    {
+        "index": 5,
+        "timestamp": 1782722277.5210462,
+        "data": {
+            "temperatura": 24.18,
+            "umiditate": 47.45
+        },
+        "previous_hash": "53d36d3e84e235bdec9522d24fbfe24091e96988b5615863278b5ecef50e7c93",
+        "hash": "fafdf7bd4d182e027486fdb1652d1fde0df47e6b0ce00acc58e31eb99388467d"
+    },
+    {
+        "index": 6,
+        "timestamp": 1782722282.5208437,
+        "data": {
+            "temperatura": 22.56,
+            "umiditate": 45.29
+        },
+        "previous_hash": "fafdf7bd4d182e027486fdb1652d1fde0df47e6b0ce00acc58e31eb99388467d",
+        "hash": "99141b4d28949d96da669537eab62e9a2a5e583f1cb4a73405cd9a035f482701"
+    },
+    {
+        "index": 7,
+        "timestamp": 1782722287.5212278,
+        "data": {
+            "temperatura": 22.69,
+            "umiditate": 54.89
+        },
+        "previous_hash": "99141b4d28949d96da669537eab62e9a2a5e583f1cb4a73405cd9a035f482701",
+        "hash": "d47ca4bca2fef9cb3aaf2d19bc56b17b482238c8b26825d241c25e0382ed7228"
+    },
+    {
+        "index": 8,
+        "timestamp": 1782722292.522113,
+        "data": {
+            "temperatura": 28.14,
+            "umiditate": 51.31
+        },
+        "previous_hash": "d47ca4bca2fef9cb3aaf2d19bc56b17b482238c8b26825d241c25e0382ed7228",
+        "hash": "ca6c5a34b59670edc37cca11fb683ad1998d380f77bbf0fc83e15301a5690538"
+    },
+    {
+        "index": 9,
+        "timestamp": 1782722297.522517,
+        "data": {
+            "temperatura": 25.4,
+            "umiditate": 50.76
+        },
+        "previous_hash": "ca6c5a34b59670edc37cca11fb683ad1998d380f77bbf0fc83e15301a5690538",
+        "hash": "5ddc7295a8b1b641b7fbbd4052140e713ab3614ec57d5a0013d497a5a5f7bc45"
+    },
+    {
+        "index": 10,
+        "timestamp": 1782722302.5228252,
+        "data": {
+            "temperatura": 24.99,
+            "umiditate": 47.36
+        },
+        "previous_hash": "5ddc7295a8b1b641b7fbbd4052140e713ab3614ec57d5a0013d497a5a5f7bc45",
+        "hash": "c7ebb28fd22ad2d7b737be2b77759514b81bdd8b270e437e57a8130780391176"
+    },
+    {
+        "index": 11,
+        "timestamp": 1782722307.5240798,
+        "data": {
+            "temperatura": 23.83,
+            "umiditate": 47.33
+        },
+        "previous_hash": "c7ebb28fd22ad2d7b737be2b77759514b81bdd8b270e437e57a8130780391176",
+        "hash": "981b36a6d33e65dbd7d5f8add4235ffb28d2ae46312b5d37c2faac8ca922d43b"
+    },
+    {
+        "index": 12,
+        "timestamp": 1782722312.5250618,
+        "data": {
+            "temperatura": 27.71,
+            "umiditate": 48.82
+        },
+        "previous_hash": "981b36a6d33e65dbd7d5f8add4235ffb28d2ae46312b5d37c2faac8ca922d43b",
+        "hash": "8fd473362382e7a2e3a2e99dc5fa9589e136171201ccf01c1dc91787808150be"
+    },
+    {
+        "index": 13,
+        "timestamp": 1782722317.5248792,
+        "data": {
+            "temperatura": 24.13,
+            "umiditate": 47.19
+        },
+        "previous_hash": "8fd473362382e7a2e3a2e99dc5fa9589e136171201ccf01c1dc91787808150be",
+        "hash": "cc6e773fe194f2e8f21ad66692ff963507a2572652c6cb255d96e5fe40986e5c"
+    },
+    {
+        "index": 14,
+        "timestamp": 1782722322.526363,
+        "data": {
+            "temperatura": 25.33,
+            "umiditate": 45.38
+        },
+        "previous_hash": "cc6e773fe194f2e8f21ad66692ff963507a2572652c6cb255d96e5fe40986e5c",
+        "hash": "9c007dec9a567092503fff5e9820637f863e248fc1202143facf8728423ad72d"
+    },
+    {
+        "index": 15,
+        "timestamp": 1782722327.5272746,
+        "data": {
+            "temperatura": 24.22,
+            "umiditate": 53.68
+        },
+        "previous_hash": "9c007dec9a567092503fff5e9820637f863e248fc1202143facf8728423ad72d",
+        "hash": "e654c56778cd63e9bd075a98f521e4209e987dda2d6fd27df47aa4b58746e439"
+    },
+    {
+        "index": 16,
+        "timestamp": 1782722332.5268264,
+        "data": {
+            "temperatura": 27.69,
+            "umiditate": 54.74
+        },
+        "previous_hash": "e654c56778cd63e9bd075a98f521e4209e987dda2d6fd27df47aa4b58746e439",
+        "hash": "06957e8bbfef36643c83926273e59c5536c1df5379041f38123788c91a6f2e79"
+    },
+    {
+        "index": 17,
+        "timestamp": 1782722337.5261438,
+        "data": {
+            "temperatura": 22.43,
+            "umiditate": 47.45
+        },
+        "previous_hash": "06957e8bbfef36643c83926273e59c5536c1df5379041f38123788c91a6f2e79",
+        "hash": "2dc2516346c3b0b447d9524d180266b89843ff5ab642d7f666ef3b36684f50fc"
+    },
+    {
+        "index": 18,
+        "timestamp": 1782722342.5292575,
+        "data": {
+            "temperatura": 26.5,
+            "umiditate": 48.01
+        },
+        "previous_hash": "2dc2516346c3b0b447d9524d180266b89843ff5ab642d7f666ef3b36684f50fc",
+        "hash": "0ebfb6469ed379d28b2ee3c1e72d3fc60afc0e790651144c3d8b9a3977f74533"
+    },
+    {
+        "index": 19,
+        "timestamp": 1782722347.528772,
+        "data": {
+            "temperatura": 25.78,
+            "umiditate": 48.37
+        },
+        "previous_hash": "0ebfb6469ed379d28b2ee3c1e72d3fc60afc0e790651144c3d8b9a3977f74533",
+        "hash": "1417ba07360be1931e1d12e0e678c161fe08ecb0bf1e3913f6d6ded8d74781c5"
+    },
+    {
+        "index": 20,
+        "timestamp": 1782722352.5297897,
+        "data": {
+            "temperatura": 24.94,
+            "umiditate": 48.57
+        },
+        "previous_hash": "1417ba07360be1931e1d12e0e678c161fe08ecb0bf1e3913f6d6ded8d74781c5",
+        "hash": "75e91c5fad3fd0135a9d5c6adc0bfb766a79cc882062418d53eda965ce9ac423"
+    },
+    {
+        "index": 21,
+        "timestamp": 1782722357.530305,
+        "data": {
+            "temperatura": 25.29,
+            "umiditate": 49.75
+        },
+        "previous_hash": "75e91c5fad3fd0135a9d5c6adc0bfb766a79cc882062418d53eda965ce9ac423",
+        "hash": "e09b587c12ddcc6f0cab16b23751c73186c7439f7c3fa04befe17830524626d7"
+    },
+    {
+        "index": 22,
+        "timestamp": 1782722362.5315385,
+        "data": {
+            "temperatura": 26.16,
+            "umiditate": 47.92
+        },
+        "previous_hash": "e09b587c12ddcc6f0cab16b23751c73186c7439f7c3fa04befe17830524626d7",
+        "hash": "4336f85355a56870600e1bbcbeee90891a6bc16b95542a0813175c4f5263d4c4"
+    },
+    {
+        "index": 23,
+        "timestamp": 1782722367.5325975,
+        "data": {
+            "temperatura": 22.88,
+            "umiditate": 47.63
+        },
+        "previous_hash": "4336f85355a56870600e1bbcbeee90891a6bc16b95542a0813175c4f5263d4c4",
+        "hash": "231bf4bdfe77a0df0a04cb0217ca69fece7450d33f60d52171cab6a2c7b714f5"
+    },
+    {
+        "index": 24,
+        "timestamp": 1782722372.5328572,
+        "data": {
+            "temperatura": 22.05,
+            "umiditate": 49.85
+        },
+        "previous_hash": "231bf4bdfe77a0df0a04cb0217ca69fece7450d33f60d52171cab6a2c7b714f5",
+        "hash": "fd8bc9ae3c4c2b225b7cfbd5c57dd76736f3c009a80f830307285fb8e8117654"
+    },
+    {
+        "index": 25,
+        "timestamp": 1782722377.5330667,
+        "data": {
+            "temperatura": 23.48,
+            "umiditate": 50.15
+        },
+        "previous_hash": "fd8bc9ae3c4c2b225b7cfbd5c57dd76736f3c009a80f830307285fb8e8117654",
+        "hash": "ef974d3008bb72dbefdd997d0fca95b4180a735884bb728514948c4cae8d59d9"
+    },
+    {
+        "index": 26,
+        "timestamp": 1782722382.5337112,
+        "data": {
+            "temperatura": 23.55,
+            "umiditate": 46.21
+        },
+        "previous_hash": "ef974d3008bb72dbefdd997d0fca95b4180a735884bb728514948c4cae8d59d9",
+        "hash": "6099d8b11c898ff230530da14bbb3d6549fc297b3a81875a84cac1c147a6bb60"
+    },
+    {
+        "index": 27,
+        "timestamp": 1782722387.5333853,
+        "data": {
+            "temperatura": 22.57,
+            "umiditate": 52.73
+        },
+        "previous_hash": "6099d8b11c898ff230530da14bbb3d6549fc297b3a81875a84cac1c147a6bb60",
+        "hash": "0be4824bbc3900e4674b6c23a4d8dbde4f87fa8d155728ae168aa55d91b77d04"
+    },
+    {
+        "index": 28,
+        "timestamp": 1782722392.53572,
+        "data": {
+            "temperatura": 24.14,
+            "umiditate": 47.09
+        },
+        "previous_hash": "0be4824bbc3900e4674b6c23a4d8dbde4f87fa8d155728ae168aa55d91b77d04",
+        "hash": "8859f2fa611d8503609dd20186fe0d9db69c381ca69032f9ada31659bc07c8f2"
+    },
+    {
+        "index": 29,
+        "timestamp": 1782722397.5360246,
+        "data": {
+            "temperatura": 28.26,
+            "umiditate": 54.99
+        },
+        "previous_hash": "8859f2fa611d8503609dd20186fe0d9db69c381ca69032f9ada31659bc07c8f2",
+        "hash": "a14f53c73e776879a42d28222f8511313ff0555a181883522a0fb92473abf9c8"
+    },
+    {
+        "index": 30,
+        "timestamp": 1782722402.5368261,
+        "data": {
+            "temperatura": 25.56,
+            "umiditate": 48.35
+        },
+        "previous_hash": "a14f53c73e776879a42d28222f8511313ff0555a181883522a0fb92473abf9c8",
+        "hash": "1fb74cbc498352abaa72ac56c2dc0d47f9e6cd3948414f90f9736024ceddd6ee"
+    },
+    {
+        "index": 31,
+        "timestamp": 1782722407.5368903,
+        "data": {
+            "temperatura": 25.46,
+            "umiditate": 45.98
+        },
+        "previous_hash": "1fb74cbc498352abaa72ac56c2dc0d47f9e6cd3948414f90f9736024ceddd6ee",
+        "hash": "d905e2c50f515fc39d92c4a902791a473639c2ca7b48484c10be0b7eb7cf8b43"
+    },
+    {
+        "index": 32,
+        "timestamp": 1782722412.5379114,
+        "data": {
+            "temperatura": 28.12,
+            "umiditate": 47.21
+        },
+        "previous_hash": "d905e2c50f515fc39d92c4a902791a473639c2ca7b48484c10be0b7eb7cf8b43",
+        "hash": "dc5eb1e281ec196381de93a03a311dcc57dd74bfd1257ef51d9028337c41ef55"
+    },
+    {
+        "index": 33,
+        "timestamp": 1782722417.538763,
+        "data": {
+            "temperatura": 27.69,
+            "umiditate": 50.2
+        },
+        "previous_hash": "dc5eb1e281ec196381de93a03a311dcc57dd74bfd1257ef51d9028337c41ef55",
+        "hash": "e9efd3cd1b6f096b5a01ae71af8564601ce7235e59b65ebc56d19957f723355c"
+    },
+    {
+        "index": 34,
+        "timestamp": 1782722422.5400958,
+        "data": {
+            "temperatura": 24.73,
+            "umiditate": 52.27
+        },
+        "previous_hash": "e9efd3cd1b6f096b5a01ae71af8564601ce7235e59b65ebc56d19957f723355c",
+        "hash": "7559b01fb2f26f32fea3ee0a2cdf37e3eb42bfc6561cfdbada06e1d94e11581d"
+    },
+    {
+        "index": 35,
+        "timestamp": 1782722427.540412,
+        "data": {
+            "temperatura": 21.76,
+            "umiditate": 48.19
+        },
+        "previous_hash": "7559b01fb2f26f32fea3ee0a2cdf37e3eb42bfc6561cfdbada06e1d94e11581d",
+        "hash": "86b06bc2c3e3783fc4aa06251368cee493c68141776a2c27d881bfb03c776bcc"
+    },
+    {
+        "index": 36,
+        "timestamp": 1782722432.5418587,
+        "data": {
+            "temperatura": 21.94,
+            "umiditate": 50.9
+        },
+        "previous_hash": "86b06bc2c3e3783fc4aa06251368cee493c68141776a2c27d881bfb03c776bcc",
+        "hash": "5a22675729ee7431cef9fa402bf26987582d62bf80704a049c4ab9a3f4e1fafc"
+    },
+    {
+        "index": 37,
+        "timestamp": 1782722437.5413675,
+        "data": {
+            "temperatura": 27.85,
+            "umiditate": 46.54
+        },
+        "previous_hash": "5a22675729ee7431cef9fa402bf26987582d62bf80704a049c4ab9a3f4e1fafc",
+        "hash": "71d162213ffdc58cc7f995a3335eaf685fa11292418c23e242ae6b25fb2148ac"
+    },
+    {
+        "index": 38,
+        "timestamp": 1782722442.5426564,
+        "data": {
+            "temperatura": 25.78,
+            "umiditate": 54.72
+        },
+        "previous_hash": "71d162213ffdc58cc7f995a3335eaf685fa11292418c23e242ae6b25fb2148ac",
+        "hash": "3c3fa2d64c31955f3d48ddd78b642f5cbd5ab5d735c4998b758b883a2c247004"
+    },
+    {
+        "index": 39,
+        "timestamp": 1782722447.5427933,
+        "data": {
+            "temperatura": 24.65,
+            "umiditate": 47.17
+        },
+        "previous_hash": "3c3fa2d64c31955f3d48ddd78b642f5cbd5ab5d735c4998b758b883a2c247004",
+        "hash": "b8f4118abd650dfd282b953acdeb1f6eb93126c14adefad418d3c85a22cfd3a8"
+    },
+    {
+        "index": 40,
+        "timestamp": 1782722452.5434532,
+        "data": {
+            "temperatura": 24.68,
+            "umiditate": 54.79
+        },
+        "previous_hash": "b8f4118abd650dfd282b953acdeb1f6eb93126c14adefad418d3c85a22cfd3a8",
+        "hash": "7d2f0e9de9d15a1401e844139dbd5a1f64bc85a874be28a2ae00313cc92ba667"
+    },
+    {
+        "index": 41,
+        "timestamp": 1782722457.544696,
+        "data": {
+            "temperatura": 24.43,
+            "umiditate": 47.62
+        },
+        "previous_hash": "7d2f0e9de9d15a1401e844139dbd5a1f64bc85a874be28a2ae00313cc92ba667",
+        "hash": "f2d85201eb292b4b80960ba1450750b49d363fb87e4a0eb26e8a3c06d030ef67"
+    }
+]
