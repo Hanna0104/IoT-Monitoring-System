@@ -67,7 +67,7 @@ async def both(update, context):
 
 if __name__ == '__main__':
     # TOKENUL TAU AICI
-    TOKEN = "8778966376:AAFqI5iV8LxyS680a70FuAs3DreiLorOI-o"
+    TOKEN = "TOKENUL TAU AICI"
     
     app = ApplicationBuilder().token(TOKEN).build()
     
