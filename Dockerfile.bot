@@ -1,0 +1,14 @@
+# 1. Folosim aceeasi imagine oficiala de Python
+FROM python:3.9-slim
+
+# 2. Setam directorul de lucru
+WORKDIR /app
+
+# 3. Copiem scriptul bot-ului
+COPY telegram_bot.py /app/
+
+# 4. Instalam librariile necesare pentru Telegram si InfluxDB
+RUN pip install python-telegram-bot influxdb
+
+# 5. Comanda de pornire
+CMD ["python", "telegram_bot.py"]

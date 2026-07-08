@@ -10,7 +10,7 @@ logging.basicConfig(
 
 # Conectarea la InfluxDB - am setat localhost pentru ca rulezi din Windows
 # Asigura-te ca baza de date se numeste 'prepractica'
-client = InfluxDBClient(host='localhost', port=8086, database='prepractica')
+client = InfluxDBClient(host='influxdb', port=8086, database='prepractica')
 
 async def start(update, context):
     mesaj = (

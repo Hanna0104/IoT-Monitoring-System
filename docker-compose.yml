@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  influxdb:
+    image: influxdb:1.8
+    container_name: orchestrat-influxdb
+    ports:
+      - "8086:8086"
+    volumes:
+      - influxdb-data:/var/lib/influxdb
+
+  nodered:
+    image: nodered/node-red
+    container_name: orchestrat-nodered
+    ports:
+      - "1880:1880"
+    depends_on:
+      - influxdb
+
+  simulator:
+    image: simulator-app
+    container_name: orchestrat-simulator
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  blockchain:
+    image: blockchain-app
+    container_name: orchestrat-blockchain
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./Ana_Local_Storage:/app/Ana_Local_Storage
+
+  telegrambot:
+    image: telegram-bot
+    container_name: orchestrat-telegrambot
+    environment:
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      - influxdb
+
+  arrowhead-db:
+    image: mysql:5.7
+    container_name: arrowhead-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=arrowhead
+    ports:
+      - "3306:3306"
+
+  service-registry:
+    image: svetlint/serviceregistry
+    container_name: arrowhead-sr
+    restart: always
+    environment:
+      - SPRING_APPLICATION_JSON={"server":{"address":"0.0.0.0"}}
+      - server_ssl_enabled=false
+      - spring_datasource_url=jdbc:mysql://arrowhead-db:3306/arrowhead?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
+      - spring_datasource_username=root
+      - spring_datasource_password=root
+    ports:
+      - "8442:8442"
+    depends_on:
+      arrowhead-db:
+        condition: service_started
+
+volumes:
+  influxdb-data:

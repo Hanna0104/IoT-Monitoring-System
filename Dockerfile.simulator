@@ -1,0 +1,14 @@
+# 1. Imaginea de Python
+FROM python:3.9-slim
+
+# 2. Setam directorul de lucru
+WORKDIR /app
+
+# 3. Copiem scriptul de generare a datelor
+COPY generare_senzori.py /app/
+
+# 4. Instalam libraria MQTT
+RUN pip install paho-mqtt
+
+# 5. Pornim simulatorul
+CMD ["python", "generare_senzori.py"]
