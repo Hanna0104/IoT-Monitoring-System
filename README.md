@@ -2,13 +2,13 @@
 
 This repository contains the implementation of an end-to-end Internet of Things (IoT) system designed for real-time environmental monitoring, data processing, and automated alerting. Developed as a pre-internship project at BEIA Consult International, the system demonstrates a highly scalable, dual-phase data pipeline[cite: 1].
 
-## 📖 Project Overview
+## Project Overview
 
 The project bridges the gap between raw data generation and actionable insights, built across two main phases[cite: 1]:
 * **Phase 1 (Simulated SoS Environment):** A local Proof of Concept (PoC) utilizing Python to simulate virtual sensor nodes, transmitting telemetry via MQTT[cite: 1]. The backend is fully containerized and orchestrated using the Arrowhead Framework to establish a System-of-Systems (SoS) architecture[cite: 1].
 * **Phase 2 (Enterprise Hardware):** Deployment of a physical industrial node (Libelium Smart Agriculture Xtreme) transmitting real-world environmental metrics over a 4G cellular network to a central Meshlium enterprise server[cite: 1].
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 The system relies on a robust, modern technology stack[cite: 1]:
 * **Data Generation:** Python (Virtual Sensor), Libelium Waspmote C++ (Physical Node)[cite: 1]
