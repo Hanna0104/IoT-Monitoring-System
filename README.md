@@ -34,3 +34,6 @@ The system relies on a robust, modern technology stack:
 * `telegram_bot.py`: Python script for the interactive Telegram querying interface.
 * `Dockerfile` / `Dockerfile.simulator` / `Dockerfile.bot`: Instructions for containerizing the individual Python microservices.
 * `docker-compose.yml`: The orchestration file linking Node-RED, InfluxDB, Arrowhead Core Systems, and custom microservices.
+
+Author
+Hurtupan Ana-Maria-Irina
